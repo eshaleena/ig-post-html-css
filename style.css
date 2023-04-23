@@ -1,0 +1,21 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+}
+.card {
+    position: relative;
+    width: 360px;
+    height: 400px;
+    background: #fff;
+    box-shadow: 15px 15px 60px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+}
