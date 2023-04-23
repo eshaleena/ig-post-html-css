@@ -1,12 +1,5 @@
-body{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    width: fit-content;
-    height: fit-content;
-    margin: auto;
-    margin-bottom: 200px;
-}
-header {
+
+.userDetails {
     text-align: center;
 }
 section {
@@ -14,17 +7,14 @@ section {
     height: 100%;
     padding-top: 60px;
 }
-.header{
-    padding: 15px;
+.userDetails{
+    padding: 25px;
 }
-.header h2 {
+.userDetails h3 {
     margin: 0;
     font-size: 20px;
 }
-.card .header .date {
-    float: right;
-}
-.card {
+.box {
     background: white;
     width: 600px;
     margin: auto;
@@ -35,6 +25,7 @@ section {
 }
 img {
     width: 100%;
+    margin-top: auto;
 }
 .test:after {
     content: '\2807';
@@ -44,3 +35,27 @@ img {
 h3 {
     margin-top: 50%;
 }    
+.actionBtns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.actionBtns img {
+    max-width: 24px;
+    display: inline;
+    cursor: pointer;
+}
+.card .userDetails {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.likes {
+    font-weight: 500;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #4d4d4f;
+}
