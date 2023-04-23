@@ -1,4 +1,6 @@
-
+.card {
+    padding-top: -20px;
+}
 .userDetails {
     text-align: center;
 }
@@ -7,7 +9,7 @@ section {
     height: 100%;
     padding-top: 60px;
 }
-.userDetails{
+.userDetails {
     padding: 25px;
 }
 .userDetails h3 {
@@ -29,7 +31,7 @@ img {
 }
 .test:after {
     content: '\2807';
-    font-size: 100px;
+    font-size: 50px;
     float: right;
     }
 h3 {
@@ -39,6 +41,8 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 6px;
+
 }
 .actionBtns img {
     max-width: 24px;
@@ -58,4 +62,9 @@ h3 {
     margin-top: 5px;
     font-size: 16px;
     color: #4d4d4f;
+    padding: 10px;
+}
+.message {
+    padding: 20px;
+    margin-bottom: 50px;
 }
